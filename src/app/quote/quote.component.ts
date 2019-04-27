@@ -7,7 +7,7 @@ import { Quote} from '../quote';
 })
 export class QuoteComponent implements OnInit {
 
-  Quotes = [
+  quotes = [
     new Quote('Time you enjoy wasting is not wasted time', 'Marthe Troly-Curtin, Phrynette Married', 'Christine'),
   ];
   constructor() { }
