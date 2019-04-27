@@ -11,6 +11,12 @@ export class QuoteComponent implements OnInit {
     new Quote('Time you enjoy wasting is not wasted time', 'Marthe Troly-Curtin, Phrynette Married', 'Christine'),
   ];
 
+
+addNewQuote(quote) {
+  const quoteLength = this.quotes.length;
+  this.quotes.push(quote);
+}
+
   quoteRead(isRead, index) {
     if (isRead) {
       this.quotes.splice(index, 1);
