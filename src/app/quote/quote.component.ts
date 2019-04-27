@@ -10,6 +10,12 @@ export class QuoteComponent implements OnInit {
   quotes = [
     new Quote('Time you enjoy wasting is not wasted time', 'Marthe Troly-Curtin, Phrynette Married', 'Christine'),
   ];
+
+  quoteRead(isRead, index) {
+    if (isRead) {
+      this.quotes.splice(index, 1);
+    }
+  }
   constructor() { }
 
   ngOnInit() {
