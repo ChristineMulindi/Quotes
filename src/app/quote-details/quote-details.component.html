@@ -1,6 +1,7 @@
 <p>{{quote.name}}</p>
 <p>{{quote.author}}</p>
 <p>{{quote.submitted}}</p>
+<p>Published: {{quote.published | dateAgo}}</p>
 
 <div class = "wrapper">
 <button id = "deletebtn" class = "btn btn-danger"(click) = 'quoteRead(true)'>Delete</button>
