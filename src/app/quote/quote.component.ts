@@ -8,7 +8,7 @@ import { Quote} from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes = [
-    new Quote('Time you enjoy wasting is not wasted time', 'Marthe Troly-Curtin, Phrynette Married', 'Christine'),
+    new Quote('Time you enjoy wasting is not wasted time', 'Marthe Troly-Curtin, Phrynette Married', 'Christine', new Date (2019, 3, 28)),
   ];
 
 
