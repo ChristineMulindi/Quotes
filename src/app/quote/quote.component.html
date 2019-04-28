@@ -1,32 +1,28 @@
+<body>
+  <div class="container-fluid" id="header">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>CREATE INSPIRING QUOTES ONLINE</h1>
 
-
-  <body>
-    <div class="container-fluid" id="header">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>CREATE INSPIRING QUOTES ONLINE</h1>
-
- <h2>Inspire yourself and others with a beautiful quote</h2>
- <p>Whether inspiring, motivational or funny, quotes have the power to get you moving, encourage you, or just help you
-   push through a tough day.</p>
-  
-
-        </div>
-      </div>
-
-
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+        <h2>Inspire yourself and others with a beautiful quote</h2>
+        <p>Whether inspiring, motivational or funny, quotes have the power to get you moving, encourage you, or just
+          help you
+          push through a tough day.</p>
       </div>
     </div>
-    <ul>
-      <div *ngFor='let quote of quotes;let i = index'>
-        <li>{{quote.name}}</li>
-        <app-quote-details [quote]='quote' (isRead)='quoteRead($event, i)'></app-quote-details>
-      </div>
-    </ul>
-  </body>
 
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+  </div>
+  <ul>
+    <div *ngFor='let quote of quotes;let i = index'>
+      <li>{{quote.name}}</li>
+      <app-quote-details [quote]='quote' (isRead)='quoteRead($event, i)'></app-quote-details>
+    </div>
+  </ul>
+</body>
