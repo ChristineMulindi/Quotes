@@ -2,3 +2,11 @@ p{
 color: white;
 text-align: center;
 }
+
+#deletebtn {
+    text-align: center;
+}
+
+.wrapper{
+    text-align: center;
+}
