@@ -1,0 +1,19 @@
+.quote{
+    padding-left: 50%;
+    color: #fff;
+}
+
+#fname{
+    margin-top: 5%; 
+}
+
+#quotebtn{
+    color: #fff;
+    width: 100%;
+    margin: 8px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+
+
