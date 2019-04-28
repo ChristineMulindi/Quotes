@@ -25,7 +25,6 @@
 
       <ul>
         <div *ngFor='let quote of quotes;let i = index'>
-          <li>{{quote.name}}</li>
           <app-quote-details [quote]='quote' (isRead)='quoteRead($event, i)'></app-quote-details>
         </div>
       </ul>
