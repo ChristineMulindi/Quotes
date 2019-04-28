@@ -1,4 +1,3 @@
-
 <body>
   <div class="background">
     <div class="container-fluid" id="header">
@@ -19,18 +18,17 @@
     </div>
 
 
-
-
-    <div class="container">
+    <div class="container-fluid" id = "section2">
       <div class="row">
         <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
       </div>
+
+      <ul>
+        <div *ngFor='let quote of quotes;let i = index'>
+          <li>{{quote.name}}</li>
+          <app-quote-details [quote]='quote' (isRead)='quoteRead($event, i)'></app-quote-details>
+        </div>
+      </ul>
     </div>
-    <ul>
-      <div *ngFor='let quote of quotes;let i = index'>
-        <li>{{quote.name}}</li>
-        <app-quote-details [quote]='quote' (isRead)='quoteRead($event, i)'></app-quote-details>
-      </div>
-    </ul>
   </div>
 </body>
