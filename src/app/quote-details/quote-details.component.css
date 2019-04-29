@@ -7,8 +7,32 @@ margin-bottom: 2%;
 
 #deletebtn {
     text-align: center;
+     margin-bottom: 1%;
+   
 }
 
-.wrapper{
+.wrapper1{
     text-align: center;
+     margin-bottom: 1%;
+}
+
+.wrapper2 {
+  text-align: center;
+  margin-bottom: 1%;
+  
+}
+
+#upbtn{
+background-color: #CC0051;
+}
+
+
+.wrapper3 {
+  text-align: center;
+  margin-bottom: 1%;
+
+}
+
+#downbtn{
+  background-color: #CC0051;
 }
