@@ -1,21 +1,25 @@
-.quote{
-    padding-left: 40%;
-    color: #fff;
+.quote {
+  padding-left: 18%;
+  color: #fff;
+  text-align: center;
+
 }
 
-#fname{
-    margin-top: 5%; 
+.namelabel {
+  text-align: center
 }
 
-#quotebtn{
-    color: #fff;
-    width: 100%;
-    margin: 8px 0;
-     border: none;
-     border-radius: 4px;
-     cursor: pointer;
-     background: #CC0051;
-     border-style: none;
+#fname {
+  margin-top: 5%;
 }
 
-
+#quotebtn {
+  color: #fff;
+  width: 100%;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #CC0051;
+  border-style: none;
+}

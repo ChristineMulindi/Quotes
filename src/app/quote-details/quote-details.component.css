@@ -1,29 +1,41 @@
-p{
-color: white;
-text-align: center;
-margin-top: 2%;
-margin-bottom: 2%;
+.container {
+  width: 20vw;
+}
+
+p {
+  color: white;
+  text-align: center;
+
+}
+
+.quote {
+  width: 400px;
+  border: 2px solid #CC0051;
+  padding: 30px;
+  position: relative;
+  border-radius: 7px;
+
 }
 
 #deletebtn {
-    text-align: center;
-     margin-bottom: 1%;
-   
+  text-align: center;
+  margin-bottom: 1%;
+
 }
 
-.wrapper1{
-    text-align: center;
-     margin-bottom: 1%;
+.wrapper1 {
+  text-align: center;
+  margin-bottom: 1%;
 }
 
 .wrapper2 {
   text-align: center;
   margin-bottom: 1%;
-  
+
 }
 
-#upbtn{
-background-color: #CC0051;
+#upbtn {
+  background-color: #CC0051;
 }
 
 
@@ -33,6 +45,12 @@ background-color: #CC0051;
 
 }
 
-#downbtn{
+#downbtn {
   background-color: #CC0051;
+}
+
+@media screen and (max-width:768px) {
+  .quotes col-md-12 {
+    width: 100%;
+  }
 }

@@ -21,14 +21,15 @@ export class QuoteDetailsComponent implements OnInit {
   }
 
 
-upVote() {
-  this.upvote++;
+  upVote() {
+    this.upvote++;
 
-}
+  }
 
-downVote() {
-  this.downvote++;
-}
+
+  downVote() {
+    this.downvote++;
+  }
 
   ngOnInit() {
   }
