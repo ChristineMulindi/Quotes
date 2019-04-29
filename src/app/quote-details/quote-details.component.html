@@ -3,6 +3,14 @@
 <p>{{quote.submitted}}</p>
 <p>Published: {{quote.published | dateAgo}}</p>
 
-<div class = "wrapper">
+<div class = "wrapper1">
 <button id = "deletebtn" class = "btn btn-danger"(click) = 'quoteRead(true)'>Delete</button>
+</div>
 
+<div class="wrapper2">
+  <p><button id="upbtn" class="btn btn-success" (click)='upVote()'>UpVote</button>  {{upvote}}  </p>
+</div>
+
+<div class="wrapper3">
+  <p><button id="downbtn" class="btn btn-success" (click)='downVote()'>DownVote</button> {{downvote}} </p>
+</div>
